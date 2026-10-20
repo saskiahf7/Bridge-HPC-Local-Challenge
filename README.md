@@ -3,6 +3,8 @@
 🌐 **Akses Website Live Demo:**  
 https://saskiahf7.github.io/Bridge-HPC-Local-Challenge/
 
+---
+
 ## 👨‍🏫 Informasi Pemateri & Kegiatan
 - **Judul Kuliah Praktisi**: *Bridging Global Infrastructure to Address Local Challenge with HPC*
 - **Narasumber**: Asst. Prof. Dr. Warawan Diaz Carballo (Thammasat University, Thailand)
