@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridge HPC Local Challenge | Saskia Hafizha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #0b0f19;
+      color: #cbd5e1;
+    }
+    
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(51, 65, 85, 0.6);
+    }
+
+    .glow-effect {
+      box-shadow: 0 0 30px -10px rgba(99, 102, 241, 0.2);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-indigo-500 selection:text-white">
+
+  <!-- Header Navbar -->
+  <header class="glass-card border-b border-slate-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400">
+          <i class="fa-solid fa-network-wired text-lg"></i>
+        </div>
+        <div>
+          <h1 class="text-base font-bold text-white tracking-wide">Bridge HPC Local Challenge</h1>
+          <p class="text-xs text-slate-400">Portofolio Akademik oleh <span class="text-indigo-400 font-medium">saskiahf7</span></p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="px-3 py-1 text-xs font-semibold rounded-full bg-slate-800 text-slate-300 border border-slate-700">
+          Informatika
+        </span>
+        <span class="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800/80 flex items-center gap-1.5">
+          <i class="fa-solid fa-server text-[10px]"></i> HPC Global Infrastructure
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="max-w-7xl mx-auto px-6 py-10 flex-1 space-y-10 w-full">
+
+    <!-- Hero Section (Formal & Akademis) -->
+    <section class="glass-card p-8 md:p-10 rounded-3xl glow-effect space-y-6">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold">
+        <i class="fa-solid fa-graduation-cap"></i> Kuliah Praktisi Informatika — Universitas Bengkulu
+      </div>
+
+      <div class="space-y-3">
+        <h2 class="text-2xl md:text-4xl font-extrabold text-white tracking-tight leading-snug">
+          Bridging Global Infrastructure to Address Local Challenge with HPC
+        </h2>
+        <p class="text-sm font-medium text-indigo-300">
+          Narasumber: Asst. Prof. Dr. Warawan Diaz Carballo <span class="text-slate-400 font-normal">(Thammasat University, Thailand)</span>
+        </p>
+      </div>
+
+      <p class="text-slate-300 text-sm md:text-base leading-relaxed max-w-5xl">
+        Studi kasus ini mengkaji pemanfaatan komputasi kinerja tinggi (<strong class="text-white">High Performance Computing / HPC</strong>) dan superkomputer global seperti Fugaku serta Lumi untuk menyelesaikan berbagai permasalahan nyata di tingkat daerah. Pembahasan mendalam berfokus pada mitigasi bencana, pemetaan pertanian presisi, optimalisasi energi bangunan, hingga pelestarian bahasa daerah berbasis kecerdasan buatan. Dalam arsitektur sistem ini, mahasiswa <strong class="text-indigo-400 font-semibold">Informatika</strong> mengambil peran krusial sebagai <span class="text-white font-semibold">Integrator</span> yang menjembatani kesenjangan antara sumber daya infrastruktur superkomputer dan domain permasalahan masyarakat lokal.
+      </p>
+
+      <!-- Grid Statistik Ringkas -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-4 border-t border-slate-800/80">
+        <div class="bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+          <span class="text-xs text-slate-400 block font-medium">Skala Kinerja</span>
+          <span class="text-xl font-bold text-white mt-1 block">ExaFLOPS Level</span>
+        </div>
+        <div class="bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+          <span class="text-xs text-slate-400 block font-medium">Infrastruktur Acuan</span>
+          <span class="text-xl font-bold text-white mt-1 block">Fugaku & Lumi</span>
+        </div>
+        <div class="bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+          <span class="text-xs text-slate-400 block font-medium">Cakupan Sektor</span>
+          <span class="text-xl font-bold text-emerald-400 mt-1 block">4 Sektor Utama</span>
+        </div>
+        <div class="bg-slate-900/60 p-4 rounded-2xl border border-slate-800">
+          <span class="text-xs text-slate-400 block font-medium">Fokus Peran</span>
+          <span class="text-xl font-bold text-indigo-400 mt-1 block">Tech Integrator</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Tabs: Eksplorasi 4 Studi Kasus -->
+    <section class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 border-b border-slate-800 pb-4">
+        <div>
+          <h3 class="text-xl font-bold text-white flex items-center gap-2.5">
+            <i class="fa-solid fa-layer-group text-indigo-400"></i>
+            Eksplorasi Sektor Studi Kasus Implementasi HPC
+          </h3>
+          <p class="text-xs text-slate-400 mt-1">Pilih menu sektor di bawah untuk meninjau detail penerapan komputasi paralel:</p>
+        </div>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <button onclick="switchTab('flood')" id="btn-flood" class="tab-btn p-4 rounded-2xl border border-indigo-500 bg-indigo-950/40 text-indigo-300 font-semibold text-xs text-left transition-all flex flex-col gap-2">
+          <i class="fa-solid fa-water text-indigo-400 text-base"></i>
+          <span>1. Mitigasi Bencana & Cuaca</span>
+        </button>
+
+        <button onclick="switchTab('agri')" id="btn-agri" class="tab-btn p-4 rounded-2xl border border-slate-800 bg-slate-900/80 text-slate-400 font-semibold text-xs text-left transition-all flex flex-col gap-2 hover:border-slate-700">
+          <i class="fa-solid fa-seedling text-emerald-400 text-base"></i>
+          <span>2. Pertanian Presisi (Digifarm)</span>
+        </button>
+
+        <button onclick="switchTab('energy')" id="btn-energy" class="tab-btn p-4 rounded-2xl border border-slate-800 bg-slate-900/80 text-slate-400 font-semibold text-xs text-left transition-all flex flex-col gap-2 hover:border-slate-700">
+          <i class="fa-solid fa-bolt-lightning text-amber-400 text-base"></i>
+          <span>3. Efisiensi Energi Gedung</span>
+        </button>
+
+        <button onclick="switchTab('lang')" id="btn-lang" class="tab-btn p-4 rounded-2xl border border-slate-800 bg-slate-900/80 text-slate-400 font-semibold text-xs text-left transition-all flex flex-col gap-2 hover:border-slate-700">
+          <i class="fa-solid fa-language text-purple-400 text-base"></i>
+          <span>4. NLP Bahasa Minoritas</span>
+        </button>
+      </div>
+
+      <!-- Tab Content Cards -->
+      <div class="glass-card p-8 rounded-3xl min-h-[220px] transition-all">
+        <!-- Kasus 1 -->
+        <div id="content-flood" class="tab-pane space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-indigo-400 uppercase tracking-widest">Sektor 1 — Kebencanaan & Hidrologi</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">Wilayah: Bangladesh & Thailand</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">Sistem Peringatan Dini Banjir Berbasis Pemodelan Pararel</h4>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Pengolahan data hidrologi sungai dan curah hujan harian berskala besar menuntut waktu komputasi yang masif. Melalui pemanfaatan klaster HPC, simulasi hidrodinamika yang sebelumnya memerlukan waktu berhari-hari dapat diselesaikan dalam kurun waktu 45 menit. Kecepatan ini memberikan jendela waktu evakuasi yang memadai guna meminimalisasi dampak risiko korban jiwa di kawasan rentan.
+          </p>
+        </div>
+
+        <!-- Kasus 2 -->
+        <div id="content-agri" class="tab-pane hidden space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Sektor 2 — Pertanian Cerdas (Smart Agriculture)</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800">Proyek: Digifarm (Lumi Supercomputer)</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">Pemetaan Citra Lahan & Proyeksi Produktivitas Pertanian</h4>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Analisis data penginderaan jauh dari satelit dan wahana udara tanpa awak (*drone*) diproses secara intensif menggunakan superkomputer. Sistem mengevaluasi indeks vegetasi, kelembapan tanah, serta memberikan rekomendasi manajemen pemupukan serta estimasi hasil panen secara presisi untuk mendukung ketahanan pangan lokal.
+          </p>
+        </div>
+
+        <!-- Kasus 3 -->
+        <div id="content-energy" class="tab-pane hidden space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Sektor 3 — Manajemen Energi & Lingkungan</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-amber-950 text-amber-300 border border-amber-800">Kerangka: EnergyPlus Co-Simulation</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">Simulasi Konsumsi Daya dan Efisiensi Termal Gedung</h4>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Pengujian efisiensi energi bangunan dikembangkan dengan menggabungkan pemodelan fisik termal gedung dan simulasi perilaku penghuni (*Agent-Based Simulation*). Simulasi ini memungkinkan pengelola menguji skenario kebijakan operasional tata udara (HVAC) untuk mereduksi emisi karbon dan menekan biaya operasional secara virtual.
+          </p>
+        </div>
+
+        <!-- Kasus 4 -->
+        <div id="content-lang" class="tab-pane hidden space-y-4">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-purple-400 uppercase tracking-widest">Sektor 4 — Kecerdasan Buatan & Inklusi Digital</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-purple-950 text-purple-300 border border-purple-800">Subjek: Bahasa Daerah Suku Hmong</span>
+          </div>
+          <h4 class="text-xl font-bold text-white">Pengembangan Model Penerjemah Suara Bahasa Minoritas</h4>
+          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+            Pelatihan model bahasa berskala besar (*Large Language Model*) dan sistem pengenalan suara (*Speech-to-Text*) pada infrastruktur HPC memungkinkan komunitas bahasa minoritas mendapatkan akses layanan digital, pendidikan, serta informasi publik dengan menggunakan bahasa ibu mereka sendiri.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Pengganti Bawah: Rangkuman Poin Akademis & Peran Integrator -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="glass-card p-8 rounded-3xl space-y-4">
+        <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
+          <i class="fa-solid fa-bullseye text-lg"></i>
+        </div>
+        <h4 class="text-lg font-bold text-white">Kompetensi Utama Mahasiswa Informatika</h4>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Sebagai calon sarjana informatika, penguasaan terhadap arsitektur sistem paralel, manajemen skrip eksekusi *batch* berbasis Linux (*SLURM*), serta pemanfaatan komputasi awan menjadi fondasi penting dalam merancang solusi komputasi yang efisien dan berkelanjutan.
+        </p>
+      </div>
+
+      <div class="glass-card p-8 rounded-3xl space-y-4">
+        <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-indigo-400">
+          <i class="fa-solid fa-arrows-split-up-and-left text-lg"></i>
+        </div>
+        <h4 class="text-lg font-bold text-white">Paradigma Peran sebagai "Integrator"</h4>
+        <p class="text-slate-300 text-sm leading-relaxed">
+          Peran integrator menuntut kolaborasi multidisiplin antara pemahaman domain masalah di lapangan, keahlian rekayasa perangkat lunak, dan kapabilitas pemanfaatan fasilitas superkomputer global guna menghasilkan inovasi teknologi yang berdampak nyata bagi masyarakat.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 bg-slate-950 py-8 text-center text-slate-500 text-xs space-y-1">
+    <p>© 2026 Bridge HPC Local Challenge — Saskia Hafizha (@saskiahf7)</p>
+    <p class="text-slate-400 font-medium">Program Studi Informatika, Fakultas Teknik, Universitas Bengkulu</p>
+  </footer>
+
+  <!-- Script Interaksi Tab -->
+  <script>
+    function switchTab(sector) {
+      // Sembunyikan semua konten tab
+      document.querySelectorAll('.tab-pane').forEach(pane => pane.classList.add('hidden'));
+      
+      // Kembalikan semua tombol ke gaya default
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.className = 'tab-btn p-4 rounded-2xl border border-slate-800 bg-slate-900/80 text-slate-400 font-semibold text-xs text-left transition-all flex flex-col gap-2 hover:border-slate-700';
+      });
+
+      // Tampilkan konten yang dipilih
+      document.getElementById('content-' + sector).classList.remove('hidden');
+
+      // Berikan style aktif pada tombol yang diklik
+      const activeBtn = document.getElementById('btn-' + sector);
+      activeBtn.className = 'tab-btn p-4 rounded-2xl border border-indigo-500 bg-indigo-950/40 text-indigo-300 font-semibold text-xs text-left transition-all flex flex-col gap-2';
+    }
+  </script>
+</body>
+</html>
